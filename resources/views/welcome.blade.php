@@ -8,7 +8,6 @@
     <meta name="page_type" content="np-template-header-footer-from-plugin">
     <title>Institute</title>
     <link rel="stylesheet" href="/css/welcome.css" media="screen">
-{{-- <link rel="stylesheet" href="/css/welcome2.css" media="screen"> --}}
     <script class="u-script" type="text/javascript" src="/js/jquery-1.9.1.min.js" defer=""></script>
     <script class="u-script" type="text/javascript" src="/js/welcome.js" defer=""></script>
     <meta name="generator" content="Nicepage 4.6.8, nicepage.com">
@@ -37,7 +36,7 @@
               <img alt="" class="u-bottom-left-radius-20 u-expanded-width u-image u-image-round u-top-right-radius-20 u-image-1" data-image-width="800" data-image-height="800" src="images/bn.jpg">
               <h3 class="u-text u-text-default u-text-3">learn Now</h3>
               <p class="u-text u-text-4">Looking to improve your grades on weak subjects ? Register to build your knowledge.</p>
-              <a href="" class="u-active-none u-border-2 u-border-active-black u-border-hover-black u-border-palette-2-base u-btn u-button-style u-hover-none u-none u-text-body-color u-btn-1">Register as Student</a>
+              <a href="student/register" class="u-active-none u-border-2 u-border-active-black u-border-hover-black u-border-palette-2-base u-btn u-button-style u-hover-none u-none u-text-body-color u-btn-1">Register as Student</a>
             </div>
           </div>
           <div class="u-container-style u-list-item u-repeater-item u-white u-list-item-2">
@@ -45,7 +44,7 @@
               <img alt="" class="u-bottom-left-radius-20 u-expanded-width u-image u-image-round u-top-right-radius-20 u-image-2" data-image-width="1200" data-image-height="1002" src="images/kj.jpg">
               <h3 class="u-text u-text-default u-text-5">Join us</h3>
               <p class="u-text u-text-6">Want to help the community on providing education ? Step forward to join with us.</p>
-              <a href="" class="u-active-none u-border-2 u-border-active-black u-border-hover-black u-border-palette-2-base u-btn u-button-style u-hover-none u-none u-text-body-color u-btn-2">Apply as a Staff</a>
+              <a href="/staff/register" class="u-active-none u-border-2 u-border-active-black u-border-hover-black u-border-palette-2-base u-btn u-button-style u-hover-none u-none u-text-body-color u-btn-2">Apply as a Staff</a>
             </div>
           </div>
           <div class="u-container-style u-list-item u-repeater-item u-white u-list-item-3">
@@ -53,7 +52,7 @@
               <img alt="" class="u-bottom-left-radius-20 u-expanded-width u-image u-image-round u-top-right-radius-20 u-image-3" data-image-width="1080" data-image-height="1080" src="images/nn.jpg">
               <h3 class="u-text u-text-default u-text-7">Teach with us</h3>
               <p class="u-text u-text-8">Interested in developing next generation with great knowledge ? Teach with us.</p>
-              <a href="" class="u-active-none u-border-2 u-border-active-black u-border-hover-black u-border-palette-2-base u-btn u-button-style u-hover-none u-none u-text-body-color u-btn-3">Apply as a Tutor</a>
+              <a href="/tutor/register" class="u-active-none u-border-2 u-border-active-black u-border-hover-black u-border-palette-2-base u-btn u-button-style u-hover-none u-none u-text-body-color u-btn-3">Apply as a Tutor</a>
             </div>
           </div>
         </div>
