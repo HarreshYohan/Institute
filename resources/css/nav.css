@@ -1,0 +1,20 @@
+
+#intro {
+    background-color:  rgb(38, 37, 37);
+  }
+
+.nav-link {
+    color: rgb(0, 0, 0);
+
+  }
+
+.navbar {
+    background-color: black;
+}
+button:focus {
+    outline: 0;
+}
+
+.navbar .dropdown-menu .form-control {
+    width: 200px;
+}
