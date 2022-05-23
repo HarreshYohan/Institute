@@ -1,9 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Sign Up Form by Colorlib</title>
 
     <!-- Font Icon -->
@@ -21,15 +18,31 @@
             <div class="container">
                 <div class="signup-content">
                     <div class="signup-form">
-                        <h2 class="form-title">Register</h2>
+                        <h2 class="form-title">Create Student Account</h2>
                         <form method="POST" class="register-form" id="register-form">
                             <div class="form-group">
                                 <label for="name"><i class="zmdi zmdi-account material-icons-name"></i></label>
-                                <input type="text" name="name" id="name" placeholder="Your Name"/>
+                                <input type="text" name="name" id="name" placeholder="First Name"/>
+                            </div>
+                            <div class="form-group">
+                                <label for="name"><i class="zmdi zmdi-account material-icons-name"></i></label>
+                                <input type="text" name="name" id="name" placeholder="Last Name"/>
+                            </div>
+                            <div class="form-group">
+                                <label for="name"><i class="zmdi zmdi-account material-icons-name"></i></label>
+                                <input type="text" name="name" id="name" placeholder="User Name"/>
                             </div>
                             <div class="form-group">
                                 <label for="email"><i class="zmdi zmdi-email"></i></label>
                                 <input type="email" name="email" id="email" placeholder="Your Email"/>
+                            </div>
+                            <div class="form-group"><span>
+                                <label for="date"><i class="zmdi zmdi-calendar-alt"></i></label></span>
+                                <input  name="email" id="email" placeholder="Date of Birth"/>
+                            </div>
+                            <div class="form-group">
+                                <label for="email"><i class="zmdi zmdi-n-1-square"></i></label>
+                                <input type="number" name="number" id="number" placeholder="Grade"/>
                             </div>
                             <div class="form-group">
                                 <label for="pass"><i class="zmdi zmdi-lock"></i></label>
@@ -45,7 +58,7 @@
                         </form>
                     </div>
                     <div class="signup-image">
-                        <figure><img src="./../images/signup-image.jpg" alt="sing up image"></figure>
+                        <figure><img src="./../images/signin-image.jpg" alt="sing up image"></figure>
                     </div>
                 </div>
             </div>
