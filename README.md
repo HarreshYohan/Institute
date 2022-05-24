@@ -70,3 +70,9 @@ Use the following command from the directory to start the project
 `./vendor/bin/sail up -d`
 
 The web server will be available at http://localhost:81/
+
+
+Use the following command from the directory to run artisan commands
+
+`./vendor/bin/sail bash`
+ 

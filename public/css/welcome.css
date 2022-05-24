@@ -18433,6 +18433,10 @@
     display: grid;
     grid-template-columns: repeat(3, 33.33333333%);
   }
+
+  .navbar-custom {
+    height: 70px;
+  }
   .u-repeater-item {
     display: flex;
     position: relative;

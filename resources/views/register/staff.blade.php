@@ -1,3 +1,5 @@
+@extends('./layouts/app')
+@section('content')
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -16,7 +18,7 @@
             <div class="container">
                 <div class="signin-content">
                     <div class="signin-form">
-                        <h2 class="form-title">Apply as Staff</h2>
+                        <h3>Apply as Staff</h3>
                         <form method="POST" class="register-form" id="register-form">
                             <div class="form-group">
                                 <label for="name"><i class="zmdi zmdi-account material-icons-name"></i></label>
@@ -51,3 +53,4 @@
     <script src="js/main.js"></script>
 </body><!-- This templates was made by Colorlib (https://colorlib.com) -->
 </html>
+@stop

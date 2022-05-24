@@ -1,0 +1,25 @@
+
+.navbar-login{
+    padding-right: 30px;
+}
+
+.navbar-nav.navbar-home{
+    padding-left: 100px;
+    display: inline-block;
+}
+
+.navbar-nav{
+    font-family: 'Verdana',sans-serif;
+    font-size: 25px;
+    font-weight: 800;
+    border-color: rgb(4, 4, 4);
+    border-width:3px
+}
+
+.navbar-home li a {
+    color: #fcfcfc !important;
+}
+
+.navbar-login li a {
+    color: #fcfcfc !important;
+}
