@@ -1,4 +1,5 @@
-<!DOCTYPE html>
+@extends('./layouts/app')
+@section('content')
 <html lang="en">
 <head>
     <title>Sign Up Form by Colorlib</title>
@@ -18,7 +19,7 @@
             <div class="container">
                 <div class="signup-content">
                     <div class="signup-form">
-                        <h2 class="form-title">Create Student Account</h2>
+                        <h3>Create Student Account</h3>
                         <form method="POST" class="register-form" id="register-form">
                             <div class="form-group">
                                 <label for="name"><i class="zmdi zmdi-account material-icons-name"></i></label>
@@ -69,3 +70,4 @@
     <script src="js/main.js"></script>
 </body><!-- This templates was made by Colorlib (https://colorlib.com) -->
 </html>
+@stop

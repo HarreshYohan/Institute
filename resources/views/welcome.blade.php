@@ -1,14 +1,6 @@
-@extends('layouts.navbar')
-@section('main')
-
-    <head>
-        <title>Institute</title>
-        <link rel="stylesheet" href="../css/welcome.css" media="screen">
-        <script class="u-script" type="text/javascript" src="/js/jquery-1.9.1.min.js" defer=""></script>
-        <script class="u-script" type="text/javascript" src="/js/welcome.js" defer=""></script>
-        <link id="u-theme-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|Open+Sans:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i">
-        <link id="u-page-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|Arimo:400,400i,500,500i,600,600i,700,700i">
-    </head>
+@extends('./layouts/app')
+@section('content')
+<title>Institute</title>
 
     <body class="u-body u-xl-mode">
         <section class="u-align-center u-clearfix u-valign-top-sm u-valign-top-xs u-section-1" id="sec-64e1">
@@ -18,7 +10,7 @@
         <h5 class="u-custom-font u-font-montserrat u-text u-text-1">Tution class made easy</h5>
         <h1 class="u-text u-text-2"> Willing to learn ? Register now</h1>
         <section class="u-align-center u-clearfix u-valign-top-sm u-valign-top-xs u-section-1" id="sec-64e1">
-        <br id="services">
+    <br id="services">
         <br>
         <div class="u-list u-list-1">
             <div class="u-repeater u-repeater-1">
