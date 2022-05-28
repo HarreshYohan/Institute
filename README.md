@@ -74,5 +74,8 @@ The web server will be available at http://localhost:81/
 
 Use the following command from the directory to run artisan commands
 
-`./vendor/bin/sail bash`
- 
+`./vendor/bin/sail bash`alias sail='bash vendor/bin/sail'
+
+Use the following command to setup the sail bash alias
+
+`alias sail='bash vendor/bin/sail'`

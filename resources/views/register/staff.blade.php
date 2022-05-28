@@ -1,4 +1,4 @@
-@extends('./layouts/app')
+@extends('../layouts/app')
 @section('content')
 <!DOCTYPE html>
 <html lang="en">
@@ -15,7 +15,7 @@
 
         <!-- Sign up form -->
         <section class="signin">
-            <div class="container">
+            <div class="container" >
                 <div class="signin-content">
                     <div class="signin-form">
                         <h3>Apply as Staff</h3>

@@ -10,7 +10,7 @@
         <h5 class="u-custom-font u-font-montserrat u-text u-text-1">Tution class made easy</h5>
         <h1 class="u-text u-text-2"> Willing to learn ? Register now</h1>
         <section class="u-align-center u-clearfix u-valign-top-sm u-valign-top-xs u-section-1" id="sec-64e1">
-    <br id="services">
+        <br id="services">
         <br>
         <div class="u-list u-list-1">
             <div class="u-repeater u-repeater-1">

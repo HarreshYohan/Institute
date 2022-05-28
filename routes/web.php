@@ -26,6 +26,9 @@ Route::get('/tutor/register', [\App\Http\Controllers\TutorController::class, 're
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
+//applications
+Route::resource('apply', ApplicationController::class);
+
 Route::get('/auth/login', function () {
     return view('login.login');
 });
