@@ -28,8 +28,8 @@
     <link id="u-theme-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|Open+Sans:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i">
     <link id="u-page-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|Arimo:400,400i,500,500i,600,600i,700,700i">
 </head>
-<body>
-    <div id="app" style="background-image: url('images/pic3.jpg');object-fit: cover">
+<body style="background-image: url('images/pic3.jpg');object-fit: cover">
+    <div id="app">
         @include('layouts.navbar')
         <main class="py-4">
             @yield('content')
