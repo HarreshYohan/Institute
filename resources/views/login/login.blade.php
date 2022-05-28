@@ -32,6 +32,7 @@
                                 <h4><input type="submit" name="signin" id="signin" class="form-submit" value="Login"/></h4>
                             </div>
                         </form>
+                        <a href><h6><input type="text" value="Forgot Password" style="border-bottom: 0px solid rgb(239, 239, 239);padding: 0;font-size: 15px;"/></h6></a>
                     </div>
                     <div class="signin-image">
                         <figure><img src="../images/signin-image.jpg" alt="sing in image"></figure>

@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\StudentController;
 
 /*
 |--------------------------------------------------------------------------
@@ -32,3 +33,5 @@ Route::resource('apply', ApplicationController::class);
 Route::get('/auth/login', function () {
     return view('login.login');
 });
+
+Route::resource('student', StudentController::class);
