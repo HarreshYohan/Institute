@@ -20,46 +20,57 @@
                 <div class="signup-content">
                     <div class="signup-form">
                         <h3>Create Student Account</h3>
-                        <form method="POST" class="register-form" id="register-form">
+                        <form method="POST" class="register-form" id="register-form" action="{{ route('student.store') }}">
+
+                            @if(Session::has('success'))
+
+                            <div class="alert alert-success" id="alert">
+                                <button type="button" class="close" data-dismiss="alert">×</button>
+                                <strong>Success:</strong> {{Session::get('success')}}
+                            </div>
+                            @elseif(session('error'))
+                            <div class="alert alert-danger" id="alert">
+                                <button type="button" class="close" data-dismiss="alert">×</button>
+                                <strong>Error:</strong>{{Session::get('error')}}
+                            </div>
+
+                            @endif
+                            
                             <div class="form-group">
-                                <label for="name"><i class="zmdi zmdi-account material-icons-name"></i></label>
-                                <input type="text" name="name" id="name" placeholder="First Name"/>
+                                <label for="first_name"><i class="zmdi zmdi-account material-icons-name"></i></label>
+                                <input type="text" name="first_name" id="first_name" placeholder="First Name" required/>
                             </div>
                             <div class="form-group">
-                                <label for="name"><i class="zmdi zmdi-account material-icons-name"></i></label>
-                                <input type="text" name="name" id="name" placeholder="Last Name"/>
+                                <label for="last_name"><i class="zmdi zmdi-account material-icons-name"></i></label>
+                                <input type="text" name="last_name" id="last_name" placeholder="Last Name" required/>
                             </div>
                             <div class="form-group">
-                                <label for="name"><i class="zmdi zmdi-account material-icons-name"></i></label>
-                                <input type="text" name="name" id="name" placeholder="User Name"/>
+                                <label for="username"><i class="zmdi zmdi-account-box-o"></i></label>
+                                <input type="text" name="username" id="username" placeholder="User Name" required/>
+                            </div>
+                            <div class="form-group"><span>
+                                <label for="dob"><i class="zmdi zmdi-calendar-alt"></i></label></span>
+                                <input type="date" name="dob" id="dob" placeholder="Date of Birth" required/>
+                            </div>
+                            <div class="form-group">
+                                <label for="grade"><i class="zmdi zmdi-n-1-square"></i></label>
+                                <input type="number" name="grade" id="grade" placeholder="Grade" min="3" max="12" required/>
                             </div>
                             <div class="form-group">
                                 <label for="email"><i class="zmdi zmdi-email"></i></label>
-                                <input type="email" name="email" id="email" placeholder="Your Email"/>
-                            </div>
-                            <div class="form-group"><span>
-                                <label for="date"><i class="zmdi zmdi-calendar-alt"></i></label></span>
-                                <input  name="email" id="email" placeholder="Date of Birth"/>
+                                <input type="email" name="email" id="email" placeholder="Your Email" required/>
                             </div>
                             <div class="form-group">
-                                <label for="email"><i class="zmdi zmdi-n-1-square"></i></label>
-                                <input type="number" name="number" id="number" placeholder="Grade"/>
-                            </div>
-                            <div class="form-group">
-                                <label for="pass"><i class="zmdi zmdi-lock"></i></label>
-                                <input type="password" name="pass" id="pass" placeholder="Password"/>
-                            </div>
-                            <div class="form-group">
-                                <label for="re-pass"><i class="zmdi zmdi-lock-outline"></i></label>
-                                <input type="password" name="re_pass" id="re_pass" placeholder="Repeat your password"/>
+                                <label for="password"><i class="zmdi zmdi-lock"></i></label>
+                                <input type="password" name="password" id="password" placeholder="Password" required/>
                             </div>
                             <div class="form-group form-button">
-                                <input type="submit" name="signup" id="signup" class="form-submit" value="Register"/>
+                                <input type="submit" name="signup" id="signup" class="form-submit" value="Create Account"/>
                             </div>
                         </form>
                     </div>
-                    <div class="signup-image">
-                        <figure><img src="./../images/signin-image.jpg" alt="sing up image"></figure>
+                    <div>
+                        <figure><img src="./../images/student2.jpg" alt="sing up image"></figure>
                     </div>
                 </div>
             </div>
@@ -68,6 +79,6 @@
 
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="js/main.js"></script>
-</body><!-- This templates was made by Colorlib (https://colorlib.com) -->
+</body>
 </html>
 @stop

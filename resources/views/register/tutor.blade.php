@@ -33,15 +33,22 @@
                                 <input type="email" name="email" id="email" placeholder="Your Email"/>
                             </div>
                             <div class="form-group">
-                                <label for="pass"><i class="zmdi zmdi-lock"></i></label>
-                                <input type="password" name="pass" id="pass" placeholder="Password"/>
+                                <label for="number"><i class="zmdi zmdi-phone"></i></label>
+                                <input type="number" name="number" id="number" placeholder="Contact Number"/>
                             </div>
                             <div class="form-group">
-                                <label for="re-pass"><i class="zmdi zmdi-lock-outline"></i></label>
-                                <input type="password" name="re_pass" id="re_pass" placeholder="Repeat your password"/>
+                                <label for="position"><i class="zmdi zmdi-account-o"></i></label>
+                                <input type="text" name="position" id="position" placeholder="Position"/>
+                            </div>
+                            <div class="mb-3">
+                                <label for="file" class="form-label"></label>
+                                <input class="form-control" type="file">
+                              </div>
+                            <div class="form-group">
+                                <textarea class="form-control" name="name" id="name" rows="3" placeholder="Brief Little Bit"></textarea>
                             </div>
                             <div class="form-group form-button">
-                                <input type="submit" name="signup" id="signup" class="form-submit" value="Register"/>
+                                <input type="submit" name="signup" id="signup" class="form-submit" value="Send Application"/>
                             </div>
                         </form>
                         </div>
